@@ -1,0 +1,21 @@
+div {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.box {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 700px;
+  height: 200px;
+  background-color: lightyellow;
+  border: 5px solid purple;
+  border-radius: 8px;
+   margin:25px 19px;
+   padding: 10px 19px;
+   font-size: 25px;
+}
+.box:hover{
+  transform: rotate(180deg);
+}
